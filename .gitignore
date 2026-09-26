@@ -1,0 +1,20 @@
+# Secrets — keep real values in smart-parking/.env only
+.env
+.env.*
+!.env.example
+
+# Dependencies and build output
+**/node_modules/
+**/dist/
+**/bin/
+**/obj/
+**/.vs/
+
+# Local MySQL data directory
+**/mysql-data/
+
+# Editor and OS
+.idea/
+*.user
+.DS_Store
+*.log
